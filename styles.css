@@ -4,7 +4,6 @@ body {
     font-family: 'Poppins', sans-serif;
     background-color: #1E1E1E; /* Jemně tmavé pozadí */
     color: #EAEAEA; /* Světle šedý text */
-    line-height: 1.6;
 }
 
 .container {
@@ -18,33 +17,34 @@ body {
     text-align: center;
 }
 
+/* Světlé pozadí pro úvodní sekci */
+.light-bg {
+    background-color: #F8F8F8; /* Téměř bílé pozadí */
+    color: #333333; /* Černý text */
+}
+
 /* Hlavní sekce */
 .hero {
-    background-color: #2A2A2A; /* Tmavší odstín pro kontrast */
-    color: #FFFFFF; /* Bílý text */
-    text-align: center;
     padding: 50px 20px;
 }
 
 .hero .logo {
-    width: 550px; /* Šířka loga */
-    margin-bottom: 5px;
+    width: 700px;
 }
 
 .hero h1 {
     font-size: 2.8rem;
-    font-weight: bold;
 }
 
 .hero p {
     font-size: 1.2rem;
-    line-height: 1.8;
 }
 
-.btn-main {
+/* Tlačítka */
+.btn, .btn-main {
     display: inline-block;
     padding: 12px 25px; /* Velikost tlačítek */
-    background-color: #3B93A6; /* Modrá barva tlačítek */
+    background-color: #E55E2D; /* Červená barva tlačítek */
     color: white; /* Barva textu na tlačítkách */
     text-decoration: none; /* Odstranění podtržení odkazu */
     font-weight: bold;
@@ -52,69 +52,19 @@ body {
     transition: background-color 0.3s ease; /* Plynulý přechod při hoveru */
 }
 
-.btn-main:hover {
-    background-color: #E55E2D; /* Červená barva při hoveru */
+.btn:hover, .btn-main:hover {
+    background-color: #3B93A6; /* Modrá barva při hoveru */
 }
 
 /* Sekce */
 .section {
-    padding: 40px 20px;
 }
 
 .section h2 {
-    text-align: center;
-    font-size: 2rem;
-    margin-bottom: 20px;
 }
 
 .section p {
-    max-width: 800px;
-    margin: auto;
 }
 
-/* Alternativní pozadí pro sekce */
-.alt-bg {
-    background-color: #252525; /* Jemně odlišné tmavé pozadí */
-}
-
-/* Tlačítka v sekcích */
-.btn {
-    display: inline-block;
-    padding: 10px 20px; /* Velikost tlačítek */
-    background-color: #3B93A6; /* Modrá barva tlačítek */
-    color: white; /* Barva textu na tlačítkách */
-    text-decoration: none; /* Odstranění podtržení odkazu */
-    font-weight: bold;
-    border-radius: 5px; /* Zaoblené rohy tlačítek */
-    transition: background-color 0.3s ease; /* Plynulý přechod při hoveru */
-}
-
-.btn:hover {
-    background-color: #E55E2D; /* Červená barva při hoveru */
-}
-
-/* Sociální ikony v sekci Kontakt */
-.social-icons {
-    text-align: center;
-    margin-top: 20px;
-}
-
-.social-icons img {
-    width: 40px; /* Velikost ikon sociálních sítí */
-    margin-right: 10px; /* Mezera mezi ikonami */
-    transition: transform 0.3s ease; /* Animace při hoveru */
-}
-
-.social-icons img:hover {
-    transform: scale(1.2); /* Zvětšení při hoveru */
-}
-
-/* Patička */
-.footer {
-    text-align: center;
-    padding-top: 20px;
-}
-.footer p {
-   color:#888888; /* Světlejší šedá barva pro text v patičce */
-   font-size: 0.9rem; /* Menší text v patičce */
+.button-spacing {
 }
