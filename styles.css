@@ -12,6 +12,11 @@ body {
     margin: 0 auto;
 }
 
+/* Text zarovnaný na střed */
+.text-center {
+    text-align: center;
+}
+
 /* Hlavní sekce */
 .hero {
     background-color: #2A2A2A; /* Tmavší odstín pro kontrast */
@@ -35,13 +40,6 @@ body {
 .btn-main {
     display: inline-block;
     padding: 12px 25px;
-    background-color: #3B93A6; /* Akcentní barva */
-    color: white;
-    text-decoration: none;
-}
-
-.btn-main:hover {
-    background-color: #2A6D7A; /* Tmavší odstín při hoveru */
 }
 
 /* Sekce */
@@ -50,19 +48,8 @@ body {
 }
 
 .section h2 {
-    text-align: center;
 }
 
-.section p {
-    max-width: 800px;
-}
-
-/* Alternativní pozadí */
-.alt-bg {
-    background-color: #252525; /* Jemně odlišné tmavé pozadí */
-}
-
-/* Tlačítka */
-.btn {
-    display: inline-block;
+/* Střed tlačítek */
+.center-buttons {
 }
