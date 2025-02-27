@@ -26,22 +26,79 @@ body {
 }
 
 .hero .logo {
-    width: 150px;
+    width: 150px; /* Šířka loga */
+    margin-bottom: 20px;
 }
 
 .hero h1 {
     font-size: 2.8rem;
+    font-weight: bold;
 }
 
 .hero p {
     font-size: 1.2rem;
-}
-
-.btn-main {
-    display: inline-block;
-    padding: 12px 25px;
+    line-height: 1.8;
 }
 
 /* Tlačítka */
-.btn {
+.btn, .btn-main {
+    display: inline-block;
+    padding: 12px 25px; /* Velikost tlačítek */
+    background-color: #3B93A6; /* Modrá barva tlačítek */
+    color: white; /* Barva textu na tlačítkách */
+    text-decoration: none; /* Odstranění podtržení odkazu */
+    font-weight: bold;
+    border-radius: 5px; /* Zaoblené rohy tlačítek */
+    transition: background-color 0.3s ease; /* Plynulý přechod při hoveru */
+}
+
+.btn:hover, .btn-main:hover {
+    background-color: #E55E2D; /* Červená barva při hoveru */
+}
+
+/* Sekce */
+.section {
+    padding: 40px 20px;
+}
+
+.section h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.section p {
+    max-width: 800px;
+    margin: auto;
+    line-height: 1.8;
+}
+
+/* Alternativní pozadí pro sekce */
+.alt-bg {
+    background-color: #252525; /* Jemně odlišné tmavé pozadí */
+}
+
+/* Sociální ikony v sekci Kontakt */
+.social-icons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-icons img {
+    width: 40px; /* Velikost ikon sociálních sítí */
+    margin-right: 10px; /* Mezera mezi ikonami */
+    transition: transform 0.3s ease; /* Animace při hoveru */
+}
+
+.social-icons img:hover {
+    transform: scale(1.2); /* Zvětšení při hoveru */
+}
+
+/* Patička */
+.footer {
+    text-align: center;
+    padding-top: 20px;
+}
+.footer p {
+   color:#888888; /* Světlejší šedá barva pro text v patičce */
 }
