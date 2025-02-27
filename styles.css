@@ -18,23 +18,18 @@ body {
     color: #FFFFFF; /* Bílý text */
     text-align: center;
     padding: 50px 20px;
-    border-bottom: 1px solid #444444; /* Jemný přechod */
 }
 
 .hero .logo {
     width: 150px;
-    margin-bottom: 20px;
 }
 
 .hero h1 {
     font-size: 2.8rem;
-    font-weight: 600;
 }
 
 .hero p {
     font-size: 1.2rem;
-    line-height: 1.8;
-    margin-bottom: 30px;
 }
 
 .btn-main {
@@ -43,8 +38,6 @@ body {
     background-color: #3B93A6; /* Akcentní barva */
     color: white;
     text-decoration: none;
-    font-weight: bold;
-    border-radius: 5px;
 }
 
 .btn-main:hover {
@@ -58,14 +51,10 @@ body {
 
 .section h2 {
     text-align: center;
-    font-size: 2rem;
-    margin-bottom: 20px;
 }
 
 .section p {
     max-width: 800px;
-    margin: auto;
-    line-height: 1.8;
 }
 
 /* Alternativní pozadí */
@@ -76,32 +65,4 @@ body {
 /* Tlačítka */
 .btn {
     display: inline-block;
-    margin-top: 20px;
-    padding: 10px 20px;
-    background-color: #E55E2D; /* Akcentní oranžová barva */
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-}
-
-.btn:hover {
-    background-color: #C94B22; /* Tmavší oranžová při hoveru */
-}
-
-/* Kontakt – tlačítka vedle sebe */
-.contact-links {
-    display: flex;
-    justify-content: center;
-}
-
-.contact-links .btn {
-    margin-right: 15px;
-}
-
-/* Patička */
-.footer {
-    text-align: center;
-}
-.footer p {
-   color:#888888
 }
