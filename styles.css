@@ -27,8 +27,8 @@ body {
 }
 
 .hero .logo {
-    width: 150px; /* Šířka loga */
-    margin-bottom: 20px;
+    width: 550px; /* Šířka loga */
+    margin-bottom: 5px;
 }
 
 .hero h1 {
