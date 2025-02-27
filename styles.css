@@ -27,8 +27,8 @@ body {
 }
 
 .hero .logo {
-    width: 150px; /* Šířka loga */
-    margin-bottom: 20px;
+    width: 800px; /* Šířka loga */
+    margin-bottom: 10px;
 }
 
 .hero h1 {
@@ -44,7 +44,7 @@ body {
 .btn-main {
     display: inline-block;
     padding: 12px 25px; /* Velikost tlačítek */
-    background-color: #3B93A6; /* Modrá barva tlačítek */
+    background-color: #E55E2D; /* Červená barva tlačítek */
     color: white; /* Barva textu na tlačítkách */
     text-decoration: none; /* Odstranění podtržení odkazu */
     font-weight: bold;
@@ -53,7 +53,7 @@ body {
 }
 
 .btn-main:hover {
-    background-color: #E55E2D; /* Červená barva při hoveru */
+    background-color: #3B93A6; /* Modrá barva při hoveru */
 }
 
 /* Sekce */
