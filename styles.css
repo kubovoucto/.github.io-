@@ -1,0 +1,77 @@
+/* Základní styl */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #0E3A2F;
+    color: white;
+}
+
+/* Hlavní sekce */
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.logo {
+    width: 150px;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+}
+
+.cta-buttons .btn {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #C1FF72;
+    color: #0E3A2F;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.cta-buttons .btn:hover {
+    background-color: #3B93A6;
+}
+
+/* Sekce */
+.section {
+    padding: 40px 20px;
+}
+
+.section h2 {
+    text-align: center;
+}
+
+.section p {
+    max-width: 800px;
+    margin: auto;
+}
+
+/* Sociální odkazy */
+.social-links {
+    list-style-type: none;
+    padding: 0;
+}
+
+.social-links li {
+    text-align: center;
+}
+
+.social-links a {
+    color: #C1FF72;
+}
+
+.social-links a:hover {
+    color: #E55E2D;
+}
+
+/* Patička */
+.footer {
+    text-align: center;
+    padding: 20px;
+}
