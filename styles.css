@@ -11,6 +11,7 @@ body {
     max-width: 1200px;
     margin: 0 auto;
 }
+
 /* Text zarovnaný na střed */
 .text-center {
     text-align: center;
@@ -28,7 +29,7 @@ body {
 }
 
 .hero .logo {
-    width: 700px;
+    width: 150px;
 }
 
 .hero h1 {
