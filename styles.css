@@ -1,77 +1,120 @@
-<!DOCTYPE html>
-<html lang="cs">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Doučování účetnictví – Kubovo Účto</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-</head>
-<body>
-    <!-- Hlavní sekce -->
-    <header class="hero light-bg">
-        <div class="container text-center">
-            <img src="Logo.png" alt="Kubovo Účto – logo" class="logo">
-            <h1>Doučování účetnictví</h1>
-            <p>Pomůžu ti zvládnout účetnictví na ŠAVŠ – od základů až po přípravu na zkoušky. Přehledné kurzy, praktické příklady a individuální přístup.</p>
-            <a href="#kontakt" class="btn-main">Kontaktovat mě</a>
-        </div>
-    </header>
+/* Základní styl */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #1E1E1E; /* Jemně tmavé pozadí */
+    color: #EAEAEA; /* Světle šedý text */
+    line-height: 1.6;
+}
 
-    <!-- Sekce O mně -->
-    <section id="o-mne" class="section">
-        <div class="container text-center">
-            <h2>O mně</h2>
-            <p>Jmenuji se Kuba a jsem student navazujícího magisterského studia na ŠAVŠ. Už více než 4 roky doučuji účetnictví a pomáhám studentům úspěšně zvládnout testy i zkoušky. Vím, co dělá studentům největší problémy, a dokážu vysvětlit i složitá témata jednoduše.</p>
-        </div>
-    </section>
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
 
-    <!-- Sekce Nabídka kurzů -->
-    <section id="kurzy" class="section alt-bg">
-        <div class="container text-center">
-            <h2>Nabídka kurzů</h2>
-            <p>V mých online kurzech najdeš vysvětlené základy účetnictví i pokročilá témata. Zaměřuji se na praktické příklady podobné těm, které se objevují v testech. Videa obsahují také upozornění na časté chyby a matoucí pojmy.</p>
-            <div class="button-spacing">
-                <a href="https://herohero.co/kubovoucto" class="btn">Přejít na kurzy</a>
-            </div>
-        </div>
-    </section>
+/* Text zarovnaný na střed */
+.text-center {
+    text-align: center;
+}
 
-    <!-- Sekce Instagram -->
-    <section id="instagram" class="section">
-        <div class="container text-center">
-            <h2>Sleduj mě na Instagramu</h2>
-            <p>Na mém Instagramu najdeš vysvětlenou teorii ke kurzům účetnictví 1 a 2. Obsah je vytvořen tak, aby ti pomohl s přípravou na testy i zkoušky. Sleduj mě pro další užitečné tipy!</p>
-            <div class="button-spacing">
-                <a href="https://www.instagram.com/kubovo_ucto?igsh=bm9uZ2RqczRkcTA1" class="btn">Instagram</a>
-            </div>
-        </div>
-    </section>
+/* Hlavní sekce */
+.hero {
+    background-color: #2A2A2A; /* Tmavší odstín pro kontrast */
+    color: #FFFFFF; /* Bílý text */
+    text-align: center;
+    padding: 50px 20px;
+}
 
-    <!-- Sekce Kontakt -->
-    <section id="kontakt" class="section alt-bg">
-        <div class="container text-center">
-            <p>Chceš se na něco zeptat nebo si domluvit doučování? Napiš mi přes Messenger nebo sleduj můj Instagram pro další užitečné tipy.</p>
-            <!-- Ikony sociálních sítí -->
-            <div class="social-icons">
-                <a href="https://m.me/jakub.prochy.85" target="_blank">
-                    <img src="MSNG.png" alt="Messenger" class="social-icon">
-                </a>
-                <a href="https://www.instagram.com/kubovo_ucto?igsh=bm9uZ2RqczRkcTA1" target="_blank">
-                    <img src="IG.png" alt="Instagram" class="social-icon">
-                </a>
-            </div>
-        </div>
-    </section>
+.hero .logo {
+    width: 150px; /* Šířka loga */
+    margin-bottom: 20px;
+}
 
-    <!-- Patička -->
-    <footer class="footer">
-        <div class="container text-center">
-            <p>&copy; 2025 Kubovo Účto | Všechna práva vyhrazena.</p>
-        </div>
-    </footer>
+.hero h1 {
+    font-size: 2.8rem;
+    font-weight: bold;
+}
 
-    <!-- JavaScript -->
-    <script src="script.js"></script>
-</body>
-</html>
+.hero p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+}
+
+.btn-main {
+    display: inline-block;
+    padding: 12px 25px; /* Velikost tlačítek */
+    background-color: #3B93A6; /* Modrá barva tlačítek */
+    color: white; /* Barva textu na tlačítkách */
+    text-decoration: none; /* Odstranění podtržení odkazu */
+    font-weight: bold;
+    border-radius: 5px; /* Zaoblené rohy tlačítek */
+    transition: background-color 0.3s ease; /* Plynulý přechod při hoveru */
+}
+
+.btn-main:hover {
+    background-color: #E55E2D; /* Červená barva při hoveru */
+}
+
+/* Sekce */
+.section {
+    padding: 40px 20px;
+}
+
+.section h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.section p {
+    max-width: 800px;
+    margin: auto;
+}
+
+/* Alternativní pozadí pro sekce */
+.alt-bg {
+    background-color: #252525; /* Jemně odlišné tmavé pozadí */
+}
+
+/* Tlačítka v sekcích */
+.btn {
+    display: inline-block;
+    padding: 10px 20px; /* Velikost tlačítek */
+    background-color: #3B93A6; /* Modrá barva tlačítek */
+    color: white; /* Barva textu na tlačítkách */
+    text-decoration: none; /* Odstranění podtržení odkazu */
+    font-weight: bold;
+    border-radius: 5px; /* Zaoblené rohy tlačítek */
+    transition: background-color 0.3s ease; /* Plynulý přechod při hoveru */
+}
+
+.btn:hover {
+    background-color: #E55E2D; /* Červená barva při hoveru */
+}
+
+/* Sociální ikony v sekci Kontakt */
+.social-icons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-icons img {
+    width: 40px; /* Velikost ikon sociálních sítí */
+    margin-right: 10px; /* Mezera mezi ikonami */
+    transition: transform 0.3s ease; /* Animace při hoveru */
+}
+
+.social-icons img:hover {
+    transform: scale(1.2); /* Zvětšení při hoveru */
+}
+
+/* Patička */
+.footer {
+    text-align: center;
+    padding-top: 20px;
+}
+.footer p {
+   color:#888888; /* Světlejší šedá barva pro text v patičce */
+   font-size: 0.9rem; /* Menší text v patičce */
+}
