@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="cs">
-    <script src="script.js"></script>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,8 +9,8 @@
 </head>
 <body>
     <!-- Hlavní sekce -->
-    <header class="hero">
-        <div class="container">
+    <header class="hero light-bg">
+        <div class="container text-center">
             <img src="Logo.png" alt="Kubovo Účto – logo" class="logo">
             <h1>Doučování účetnictví</h1>
             <p>Pomůžu ti zvládnout účetnictví na ŠAVŠ – od základů až po přípravu na zkoušky. Přehledné kurzy, praktické příklady a individuální přístup.</p>
@@ -32,7 +31,9 @@
         <div class="container text-center">
             <h2>Nabídka kurzů</h2>
             <p>V mých online kurzech najdeš vysvětlené základy účetnictví i pokročilá témata. Zaměřuji se na praktické příklady podobné těm, které se objevují v testech. Videa obsahují také upozornění na časté chyby a matoucí pojmy.</p>
-            <a href="https://herohero.co/kubovoucto" class="btn">Přejít na kurzy</a>
+            <div class="button-spacing">
+                <a href="https://herohero.co/kubovoucto" class="btn">Přejít na kurzy</a>
+            </div>
         </div>
     </section>
 
@@ -41,7 +42,9 @@
         <div class="container text-center">
             <h2>Sleduj mě na Instagramu</h2>
             <p>Na mém Instagramu najdeš vysvětlenou teorii ke kurzům účetnictví 1 a 2. Obsah je vytvořen tak, aby ti pomohl s přípravou na testy i zkoušky. Sleduj mě pro další užitečné tipy!</p>
-            <a href="https://www.instagram.com/kubovo_ucto?igsh=bm9uZ2RqczRkcTA1" class="btn">Instagram</a>
+            <div class="button-spacing">
+                <a href="https://www.instagram.com/kubovo_ucto?igsh=bm9uZ2RqczRkcTA1" class="btn">Instagram</a>
+            </div>
         </div>
     </section>
 
@@ -51,8 +54,12 @@
             <p>Chceš se na něco zeptat nebo si domluvit doučování? Napiš mi přes Messenger nebo sleduj můj Instagram pro další užitečné tipy.</p>
             <!-- Ikony sociálních sítí -->
             <div class="social-icons">
-                <a href="https://m.me/jakub.prochy.85"><img src="MSNG.png" alt="Messenger"></a>
-                <a href="https://www.instagram.com/kubovo_ucto?igsh=bm9uZ2RqczRkcTA1"><img src="IG.png" alt="Instagram"></a>
+                <a href="https://m.me/jakub.prochy.85" target="_blank">
+                    <img src="MSNG.png" alt="Messenger" class="social-icon">
+                </a>
+                <a href="https://www.instagram.com/kubovo_ucto?igsh=bm9uZ2RqczRkcTA1" target="_blank">
+                    <img src="IG.png" alt="Instagram" class="social-icon">
+                </a>
             </div>
         </div>
     </section>
@@ -64,5 +71,7 @@
         </div>
     </footer>
 
+    <!-- JavaScript -->
+    <script src="script.js"></script>
 </body>
 </html>
