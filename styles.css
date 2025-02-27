@@ -1,19 +1,27 @@
 /* Základní styl */
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #0E3A2F;
-    color: white;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 /* Hlavní sekce */
 .hero {
+    background-color: #0E3A2F;
+    color: white;
     text-align: center;
     padding: 50px 20px;
 }
 
-.logo {
-    width: 150px;
+.hero .logo {
+    width: 120px;
 }
 
 .hero h1 {
@@ -24,17 +32,17 @@ body {
     font-size: 1.2rem;
 }
 
-.cta-buttons .btn {
+.btn-main {
     display: inline-block;
-    margin: 10px;
+    margin-top: 20px;
     padding: 10px 20px;
     background-color: #C1FF72;
     color: #0E3A2F;
     text-decoration: none;
-    border-radius: 5px;
+    font-weight: bold;
 }
 
-.cta-buttons .btn:hover {
+.btn-main:hover {
     background-color: #3B93A6;
 }
 
@@ -52,26 +60,36 @@ body {
     margin: auto;
 }
 
-/* Sociální odkazy */
-.social-links {
-    list-style-type: none;
-    padding: 0;
+/* Alternativní pozadí */
+.alt-bg {
+    background-color: #f4f4f4;
 }
 
-.social-links li {
-    text-align: center;
+/* Tlačítka */
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #E55E2D;
+    color: white;
+    text-decoration: none;
 }
 
-.social-links a {
-    color: #C1FF72;
+.btn:hover {
+    background-color: #3B93A6;
 }
 
-.social-links a:hover {
-    color: #E55E2D;
+/* Kontakt */
+.contact-links {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-links .btn {
+    margin-right: 10px;
 }
 
 /* Patička */
 .footer {
     text-align: center;
-    padding: 20px;
 }
